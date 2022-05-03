@@ -6,30 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera app</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="cabeceraPrincipal">
+        <h1>Villonaco</h1>
         <section><img src="" alt="logo"></section>
         <section>
             <p>Register | Login</p>
             <input type="search" placeholder="Buscar">
         </section>
     </header>
-    <nav>
+    <nav class="menuPrincipal">
         <a href="">INICIO</a>
         <a href="">SERVICIOS</a>
         <a href="">PORTAFOLIO</a>
         <a href="">CLIENTES</a>
         <a href="">CONTACTO</a>
     </nav>
-    <section>
-        <h3>Slider Galeria</h3>
-        <img src="" alt="Img1">
-        <img src="" alt="Img2">
+    <section class="sliderPrincipal">
+        <img src="img/slider_1.jpg" alt="slider" title="sliderPrincipal">
     </section>
     <main>
-        <article>
+        <!--         <article>
             <header>Nombre de la Noticia 1</header>
             <img src="" alt="Imagen noticia 1">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure autem velit necessitatibus praesentium
@@ -46,9 +46,61 @@
                 necessitatibus quibusdam.</p>
             <footer>Autor</footer>
             <footer>Fecha</footer>
-        </article>
+        </article> -->
+        <h2 class="h2Home">Menu</h2>
+        <section class="menu">
+            <article class="menuPlato">
+                <img src="img/plato1.jpg" alt="plato1">
+                <h3>Rib Steak</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error assumenda eum quae iste animi
+                    reprehenderit, repudiandae fuga quas omnis nemo et quaerat reiciendis? Hic velit ipsum qui
+                    doloremque vel.</p>
+                <button>Ver Detalles</button>
+            </article>
+            <article class="menuPlato">
+                <img src="img/plato2.jpg" alt="plato1">
+                <h3>Pescado en verduras</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error assumenda eum quae iste animi
+                    reprehenderit, repudiandae fuga quas omnis nemo et quaerat reiciendis? Hic velit ipsum qui
+                    doloremque vel.</p>
+                <button>Ver Detalles</button>
+            </article>
+            <article class="menuPlato">
+                <img src="img/plato3.jpg" alt="plato1">
+                <h3>Spaghetti</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error assumenda eum quae iste animi
+                    reprehenderit, repudiandae fuga quas omnis nemo et quaerat reiciendis? Hic velit ipsum qui
+                    doloremque vel.</p>
+                <button>Ver Detalles</button>
+            </article>
+        </section>
+        <h2 class="h2Home">Chefs</h2>
+        <section class="menu">
+            <article class="menuChef">
+                <div class="izq">
+                    <img src="img/chef1.jpg" alt="chef1">
+                </div>
+                <div class="der">
+                    <h3>Pedro Infante</h3>
+                    <p>Informacion detallada del plato . Informacion detallada del plato Informacion detallada del plato
+                    </p>
+                    <button class="btnChef1"> Mas informacion</button>
+                </div>
+            </article>
+            <article class="menuChef">
+                <div class="izq">
+                    <img src="img/chef2.jpg" alt="chef2">
+                </div>
+                <div class="der">
+                    <h3>Luis Miguel</h3>
+                    <p>Informacion detallada del plato . Informacion detallada del plato Informacion detallada del plato
+                    </p>
+                    <button class="btnChef2"> Mas informacion</button>
+                </div>
+            </article>
+        </section>
     </main>
-    <section>
+    <section class="sponsors">
         <h3>Sponsors</h3>
         <img src="" alt="Sponsor 1">
         <img src="" alt="Sponsor 2">
@@ -56,7 +108,9 @@
         <img src="" alt="Sponsor 4">
         <img src="" alt="Sponsor 5">
     </section>
-    <footer>PIE DE PAGINA</footer>
+    <footer class="piePagina">
+        <h6>Derechos Reservados 2022</h6>
+    </footer>
 </body>
 
 </html>
